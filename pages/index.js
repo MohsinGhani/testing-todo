@@ -13,6 +13,7 @@ const Index = () => {
             setUserInput(e.target.value);
             console.log("comment 1", userInput);
             console.log("comment 2", userInput);
+            console.log("comment 3", userInput);
           }}
         ></input>
         <button>submit</button>
