@@ -11,7 +11,8 @@ const Index = () => {
           type="text"
           onChange={(e) => {
             setUserInput(e.target.value);
-            console.log(userInput);
+            console.log("comment 1", userInput);
+            console.log("comment 2", userInput);
           }}
         ></input>
         <button>submit</button>
